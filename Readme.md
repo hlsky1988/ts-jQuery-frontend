@@ -14,5 +14,6 @@
 - 多页面 jQuery 缓存的问题
 
 - 准备将webpack修改为多入口模式，以解决公共组件的打包问题
+  - [参考资料](http://www.jb51.net/article/117490.htm)
 
 - 另类解决办法，不使用webpack，只使用tsc编译，公共部分仍然在*.html引入，但是为了让Ts文件识别$,仍旧 import jQuery 后注释掉 
