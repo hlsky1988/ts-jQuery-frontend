@@ -1,7 +1,7 @@
 module.exports = {
-  entry: "./src/app.ts",
+  entry: "./src/webpackApp.ts",
   output: {
-    filename: "app.js",
+    filename: "webpackApp.js",
     path: __dirname + "/dist"
   },
   devtool: "source-map",

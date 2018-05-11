@@ -4,7 +4,8 @@
   "description": "Typescript-jQuery frontend Package",
   "main": "index.js",
   "scripts": {
-    "ts2js":"webpack"
+    "tsc":"tsc",
+    "webpack":"webpack"
   },
   "author": "hlsky1988",
   "license": "ISC",
